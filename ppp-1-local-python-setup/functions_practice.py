@@ -13,7 +13,19 @@ def eat_lunch(any_list):
         else:
             print(f"Next I eat {any_list[i]}")
 
+# corrected code to eat_lunch
+def l_lunch(lunch):
+   if len(lunch)==0:
+        print("My lunchbox is empty!")
+   else:
+    for i in range (len(lunch)):
+        if i== 0:
+            print(f"First I eat {lunch[i]}") 
+        else:  
+            print(f"Next I eat {lunch[i]}")
+            
 
+# solution
 def my_lunch(my_lst):
   if len(my_lst) == 0:
     print("My lunchbox is empty!")
@@ -26,15 +38,6 @@ def my_lunch(my_lst):
 
     
 
-def l_lunch(lunch):
-   if len(lunch)==0:
-        print("My lunchbox is empty!")
-   else:
-    for i in range (len(lunch)):
-        if i>= 0:
-            print(f"First I eat {lunch[i]}") 
-        else:  
-            print(f"Next I eat {lunch[i]}")
       
 
 
